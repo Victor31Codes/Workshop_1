@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universidad Distrital Francisco José de Caldas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Universidad Distrital Francisco José de Caldas</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#facultades">Facultades</a></li>
+        <li><a href="#admisiones">Admisiones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+      <h2>Bienvenidos a la Universidad Distrital</h2>
+      <p>
+        La Universidad Distrital Francisco José de Caldas se dedica a formar
+        profesionales líderes en diferentes áreas del conocimiento. Nos
+        destacamos por nuestra excelencia académica y por promover la
+        investigación y el desarrollo tecnológico.
+      </p>
+      <img
+        src="udistrital-logo.png"
+        alt="Logo Universidad Distrital"
+        class="logo"
+      />
+    </section>
+
+    <!-- Sección de Facultades -->
+    <section id="facultades">
+      <h2>Nuestras Facultades</h2>
+      <ul>
+        <li>Facultad de Ingeniería</li>
+        <li>Facultad de Ciencias</li>
+        <li>Facultad de Artes</li>
+        <li>Facultad de Medio Ambiente</li>
+      </ul>
+    </section>
+
+    <!-- Sección de Admisiones -->
+    <section id="admisiones">
+      <h2>Proceso de Admisiones</h2>
+      <p>
+        El proceso de admisiones está abierto para los programas de pregrado y
+        posgrado. Te invitamos a conocer los requisitos y fechas de inscripción.
+      </p>
+      <button onclick="alert('¡Próximamente más información!')">
+        Ver más detalles
+      </button>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>
+        Si tienes alguna pregunta o deseas más información, no dudes en
+        contactarnos. Nuestro equipo estará encantado de ayudarte.
+      </p>
+      <ul>
+        <li>Email: contacto@udistrital.edu.co</li>
+        <li>Teléfono: +57 1 323 9300</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2024 Universidad Distrital Francisco José de Caldas. Todos los
+        derechos reservados.
+      </p>
+    </footer>
+
+    <script>
+      // Añadir interactividad para botones
+      const button = document.querySelector("button");
+      button.addEventListener("click", () => {
+        alert(
+          "Más detalles del proceso de admisión estarán disponibles pronto."
+        );
+      });
+    </script>
+  </body>
+</html>
